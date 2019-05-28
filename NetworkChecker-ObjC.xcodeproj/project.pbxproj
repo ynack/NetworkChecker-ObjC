@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		33BC57E0229CEFFD00A15130 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BC57DF229CEFFD00A15130 /* AppDelegate.m */; };
+		33BC57E2229CEFFE00A15130 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 33BC57E1229CEFFE00A15130 /* Assets.xcassets */; };
+		33BC57E5229CEFFE00A15130 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 33BC57E3229CEFFE00A15130 /* MainMenu.xib */; };
+		33BC57E8229CEFFE00A15130 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BC57E7229CEFFE00A15130 /* main.m */; };
+		33BC57F3229CEFFF00A15130 /* NetworkChecker_ObjCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BC57F2229CEFFF00A15130 /* NetworkChecker_ObjCTests.m */; };
+		33BC57FE229CEFFF00A15130 /* NetworkChecker_ObjCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 33BC57FD229CEFFF00A15130 /* NetworkChecker_ObjCUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		33BC57EF229CEFFF00A15130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BC57D3229CEFFD00A15130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BC57DA229CEFFD00A15130;
+			remoteInfo = "NetworkChecker-ObjC";
+		};
+		33BC57FA229CEFFF00A15130 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 33BC57D3229CEFFD00A15130 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 33BC57DA229CEFFD00A15130;
+			remoteInfo = "NetworkChecker-ObjC";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		33BC57DB229CEFFD00A15130 /* NetworkChecker-ObjC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "NetworkChecker-ObjC.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BC57DE229CEFFD00A15130 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		33BC57DF229CEFFD00A15130 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		33BC57E1229CEFFE00A15130 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		33BC57E4229CEFFE00A15130 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		33BC57E6229CEFFE00A15130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BC57E7229CEFFE00A15130 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		33BC57E9229CEFFE00A15130 /* NetworkChecker_ObjC.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = NetworkChecker_ObjC.entitlements; sourceTree = "<group>"; };
+		33BC57EE229CEFFF00A15130 /* NetworkChecker-ObjCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetworkChecker-ObjCTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BC57F2229CEFFF00A15130 /* NetworkChecker_ObjCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkChecker_ObjCTests.m; sourceTree = "<group>"; };
+		33BC57F4229CEFFF00A15130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33BC57F9229CEFFF00A15130 /* NetworkChecker-ObjCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "NetworkChecker-ObjCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		33BC57FD229CEFFF00A15130 /* NetworkChecker_ObjCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NetworkChecker_ObjCUITests.m; sourceTree = "<group>"; };
+		33BC57FF229CEFFF00A15130 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		33BC57D8229CEFFD00A15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57EB229CEFFF00A15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57F6229CEFFF00A15130 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		33BC57D2229CEFFD00A15130 = {
+			isa = PBXGroup;
+			children = (
+				33BC57DD229CEFFD00A15130 /* NetworkChecker-ObjC */,
+				33BC57F1229CEFFF00A15130 /* NetworkChecker-ObjCTests */,
+				33BC57FC229CEFFF00A15130 /* NetworkChecker-ObjCUITests */,
+				33BC57DC229CEFFD00A15130 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		33BC57DC229CEFFD00A15130 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33BC57DB229CEFFD00A15130 /* NetworkChecker-ObjC.app */,
+				33BC57EE229CEFFF00A15130 /* NetworkChecker-ObjCTests.xctest */,
+				33BC57F9229CEFFF00A15130 /* NetworkChecker-ObjCUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		33BC57DD229CEFFD00A15130 /* NetworkChecker-ObjC */ = {
+			isa = PBXGroup;
+			children = (
+				33BC57DE229CEFFD00A15130 /* AppDelegate.h */,
+				33BC57DF229CEFFD00A15130 /* AppDelegate.m */,
+				33BC57E1229CEFFE00A15130 /* Assets.xcassets */,
+				33BC57E3229CEFFE00A15130 /* MainMenu.xib */,
+				33BC57E6229CEFFE00A15130 /* Info.plist */,
+				33BC57E7229CEFFE00A15130 /* main.m */,
+				33BC57E9229CEFFE00A15130 /* NetworkChecker_ObjC.entitlements */,
+			);
+			path = "NetworkChecker-ObjC";
+			sourceTree = "<group>";
+		};
+		33BC57F1229CEFFF00A15130 /* NetworkChecker-ObjCTests */ = {
+			isa = PBXGroup;
+			children = (
+				33BC57F2229CEFFF00A15130 /* NetworkChecker_ObjCTests.m */,
+				33BC57F4229CEFFF00A15130 /* Info.plist */,
+			);
+			path = "NetworkChecker-ObjCTests";
+			sourceTree = "<group>";
+		};
+		33BC57FC229CEFFF00A15130 /* NetworkChecker-ObjCUITests */ = {
+			isa = PBXGroup;
+			children = (
+				33BC57FD229CEFFF00A15130 /* NetworkChecker_ObjCUITests.m */,
+				33BC57FF229CEFFF00A15130 /* Info.plist */,
+			);
+			path = "NetworkChecker-ObjCUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		33BC57DA229CEFFD00A15130 /* NetworkChecker-ObjC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BC5802229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjC" */;
+			buildPhases = (
+				33BC57D7229CEFFD00A15130 /* Sources */,
+				33BC57D8229CEFFD00A15130 /* Frameworks */,
+				33BC57D9229CEFFD00A15130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "NetworkChecker-ObjC";
+			productName = "NetworkChecker-ObjC";
+			productReference = 33BC57DB229CEFFD00A15130 /* NetworkChecker-ObjC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		33BC57ED229CEFFF00A15130 /* NetworkChecker-ObjCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BC5805229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjCTests" */;
+			buildPhases = (
+				33BC57EA229CEFFF00A15130 /* Sources */,
+				33BC57EB229CEFFF00A15130 /* Frameworks */,
+				33BC57EC229CEFFF00A15130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BC57F0229CEFFF00A15130 /* PBXTargetDependency */,
+			);
+			name = "NetworkChecker-ObjCTests";
+			productName = "NetworkChecker-ObjCTests";
+			productReference = 33BC57EE229CEFFF00A15130 /* NetworkChecker-ObjCTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		33BC57F8229CEFFF00A15130 /* NetworkChecker-ObjCUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 33BC5808229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjCUITests" */;
+			buildPhases = (
+				33BC57F5229CEFFF00A15130 /* Sources */,
+				33BC57F6229CEFFF00A15130 /* Frameworks */,
+				33BC57F7229CEFFF00A15130 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				33BC57FB229CEFFF00A15130 /* PBXTargetDependency */,
+			);
+			name = "NetworkChecker-ObjCUITests";
+			productName = "NetworkChecker-ObjCUITests";
+			productReference = 33BC57F9229CEFFF00A15130 /* NetworkChecker-ObjCUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		33BC57D3229CEFFD00A15130 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = yosuke.nakayama;
+				TargetAttributes = {
+					33BC57DA229CEFFD00A15130 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					33BC57ED229CEFFF00A15130 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 33BC57DA229CEFFD00A15130;
+					};
+					33BC57F8229CEFFF00A15130 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 33BC57DA229CEFFD00A15130;
+					};
+				};
+			};
+			buildConfigurationList = 33BC57D6229CEFFD00A15130 /* Build configuration list for PBXProject "NetworkChecker-ObjC" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 33BC57D2229CEFFD00A15130;
+			productRefGroup = 33BC57DC229CEFFD00A15130 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				33BC57DA229CEFFD00A15130 /* NetworkChecker-ObjC */,
+				33BC57ED229CEFFF00A15130 /* NetworkChecker-ObjCTests */,
+				33BC57F8229CEFFF00A15130 /* NetworkChecker-ObjCUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		33BC57D9229CEFFD00A15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BC57E2229CEFFE00A15130 /* Assets.xcassets in Resources */,
+				33BC57E5229CEFFE00A15130 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57EC229CEFFF00A15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57F7229CEFFF00A15130 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		33BC57D7229CEFFD00A15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BC57E8229CEFFE00A15130 /* main.m in Sources */,
+				33BC57E0229CEFFD00A15130 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57EA229CEFFF00A15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BC57F3229CEFFF00A15130 /* NetworkChecker_ObjCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		33BC57F5229CEFFF00A15130 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33BC57FE229CEFFF00A15130 /* NetworkChecker_ObjCUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		33BC57F0229CEFFF00A15130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33BC57DA229CEFFD00A15130 /* NetworkChecker-ObjC */;
+			targetProxy = 33BC57EF229CEFFF00A15130 /* PBXContainerItemProxy */;
+		};
+		33BC57FB229CEFFF00A15130 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 33BC57DA229CEFFD00A15130 /* NetworkChecker-ObjC */;
+			targetProxy = 33BC57FA229CEFFF00A15130 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		33BC57E3229CEFFE00A15130 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				33BC57E4229CEFFE00A15130 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		33BC5800229CEFFF00A15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		33BC5801229CEFFF00A15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		33BC5803229CEFFF00A15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NetworkChecker-ObjC/NetworkChecker_ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		33BC5804229CEFFF00A15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "NetworkChecker-ObjC/NetworkChecker_ObjC.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjC/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		33BC5806229CEFFF00A15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkChecker-ObjC.app/Contents/MacOS/NetworkChecker-ObjC";
+			};
+			name = Debug;
+		};
+		33BC5807229CEFFF00A15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjCTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjCTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/NetworkChecker-ObjC.app/Contents/MacOS/NetworkChecker-ObjC";
+			};
+			name = Release;
+		};
+		33BC5809229CEFFF00A15130 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NetworkChecker-ObjC";
+			};
+			name = Debug;
+		};
+		33BC580A229CEFFF00A15130 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = XM663NRHRM;
+				INFOPLIST_FILE = "NetworkChecker-ObjCUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "yosuke.nakayama.NetworkChecker-ObjCUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "NetworkChecker-ObjC";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		33BC57D6229CEFFD00A15130 /* Build configuration list for PBXProject "NetworkChecker-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BC5800229CEFFF00A15130 /* Debug */,
+				33BC5801229CEFFF00A15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BC5802229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BC5803229CEFFF00A15130 /* Debug */,
+				33BC5804229CEFFF00A15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BC5805229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BC5806229CEFFF00A15130 /* Debug */,
+				33BC5807229CEFFF00A15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		33BC5808229CEFFF00A15130 /* Build configuration list for PBXNativeTarget "NetworkChecker-ObjCUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33BC5809229CEFFF00A15130 /* Debug */,
+				33BC580A229CEFFF00A15130 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 33BC57D3229CEFFD00A15130 /* Project object */;
+}
